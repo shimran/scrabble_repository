@@ -2,5 +2,7 @@ require(rspec)
 require(scrabble.rb)
 
 describe('String#scrabble') do
-  #eventually code goes here
+  it('Returns '1' for values 'A,E,I,O,U,L,N,R,S,T'') do
+    expect(("A").scrabble()).to(eq("1"))
+end
 end
